@@ -42,7 +42,7 @@ This project is open source. You can inspect, fork, and modify the code in this 
 
 ## License
 
-Add your preferred license here if you plan to publish the project publicly.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
@@ -90,4 +90,4 @@ Add your preferred license here if you plan to publish the project publicly.
 
 ## 许可证
 
-如果你计划公开发布项目，请在这里补充你使用的许可证。
+本项目采用 MIT 协议。详情请查看 `LICENSE` 文件。
