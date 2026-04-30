@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "arXiv to AlphaXiv",
+  "version": "1.0.0",
+  "description": "Detect arXiv abstract pages and jump to the corresponding AlphaXiv page.",
+  "action": {
+    "default_title": "Open the same paper on AlphaXiv",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://arxiv.org/*",
+    "https://arxiv.org/*",
+    "https://alphaxiv.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://arxiv.org/*",
+        "https://arxiv.org/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
