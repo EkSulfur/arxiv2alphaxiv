@@ -1,4 +1,4 @@
-# Alphaxlik
+# Alphaxlick
 
 ## Language
 
