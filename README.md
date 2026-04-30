@@ -1,3 +1,5 @@
+# Alphaxlik
+
 ## Language
 
 - [English](#english)
@@ -6,8 +8,6 @@
 ---
 
 <a id="english"></a>
-
-# arXiv to AlphaXiv
 
 A lightweight Microsoft Edge extension that helps you jump from an arXiv paper page to the corresponding AlphaXiv page with one click.
 
@@ -56,8 +56,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 <a id="chinese"></a>
-
-# arXiv 到 AlphaXiv
 
 一个轻量级的 Microsoft Edge 扩展，可以让你一键从 arXiv 论文页面跳转到对应的 AlphaXiv 页面。
 
